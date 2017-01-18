@@ -4,10 +4,10 @@ import sys
 
 args = sys.argv
 print 'loading...' + args[1]
-f=open(args[1])
-line = f.readline()
+hashFile=open(args[1])
+line = hashFile.readline()
 
 while line:
 	print line
-	line = f.readline()
-f.close
+	line = hashFile.readline()
+hashFile.close
