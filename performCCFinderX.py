@@ -3,8 +3,8 @@
 import sys
 
 args = sys.argv
-print 'loading...' + args[1]
-hashFile=open(args[1])
+print 'loading... ' + args[1]+'sha1.txt'
+hashFile=open(args[1]+"sha1.txt")
 line = hashFile.readline()
 
 while line:
