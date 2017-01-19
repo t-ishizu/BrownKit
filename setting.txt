@@ -1,0 +1,3 @@
+object project=D:\git\skynet
+sha1.txt=D:\git\sha1.txt
+CCFinderX path=C:
