@@ -1,0 +1,5 @@
+object project=C:\Users\t-ishizu\Documents\inoue\Git\Skynet\skynet
+sha1.txt=C:\Users\t-ishizu\Documents\inoue\Git\Skynet\sha1.txt
+CCFinderX path=C:\CCFinderX\ccfx-win32-en\bin
+data path=C:\Users\t-ishizu\Documents\inoue\Git\Skynet\data
+working directory=C:\Users\t-ishizu\Documents\inoue\Git\Skynet\working
