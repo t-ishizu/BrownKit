@@ -4,6 +4,11 @@ import sys
 import os
 import subprocess
 
+class Perform_CCFinderX:
+	def __init__(self, detector_path):
+    		self.detector_path = detector_path
+
+
 def run(cmd):
     	ret = subprocess.check_call( cmd , shell=True)
 	return ret == 0
