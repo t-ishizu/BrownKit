@@ -54,7 +54,7 @@ class ReadSetting:
         line = setting.readline()
         while line:
             if line.startswith("data path="):
-                ccfx_path = line[15:-1]
+                ccfx_path = line[10:-1]
             else:
                 pass
             line = setting.readline()
@@ -65,7 +65,7 @@ class ReadSetting:
         line = setting.readline()
         while line:
             if line.startswith("working directory="):
-                ccfx_path = line[15:-1]
+                ccfx_path = line[18:-1]
             else:
                 pass
             line = setting.readline()

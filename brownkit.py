@@ -22,5 +22,5 @@ print READ_SETTING.path5# working
 SHA_ONE_LIST = shaonelist.Sha_One_List(READ_SETTING.path2)
 MOVE_SOURCE_CODE = movesourcecode.Move_Source_Code(READ_SETTING.path1, READ_SETTING.path5)
 MOVE_SOURCE_CODE.move_file()
-PERFORM_CCFINDERX = performCCFinderX.Perform_CCFinderX(READ_SETTING.path3, READ_SETTING.path5)
-PERFORM_CCFINDERX.perform()
+PERFORM_CCFINDERX = performCCFinderX.Perform_Ccfinderx(READ_SETTING.path3, READ_SETTING.path5)
+PERFORM_CCFINDERX.perform()xx
